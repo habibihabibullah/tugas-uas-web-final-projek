@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 CREATE DATABASE IF NOT EXISTS kampus;
 USE kampus;
 
@@ -7,3 +8,14 @@ CREATE TABLE IF NOT EXISTS mahasiswa (
     nim VARCHAR(20),
     jurusan VARCHAR(100)
 );
+=======
+CREATE DATABASE IF NOT EXISTS kampus;
+USE kampus;
+
+CREATE TABLE IF NOT EXISTS mahasiswa (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nama VARCHAR(255),
+    nim VARCHAR(20),
+    jurusan VARCHAR(100)
+);
+>>>>>>> 4d3b6631902f2dd3467e7c666ec48068e1e1f7b9

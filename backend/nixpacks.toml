@@ -1,7 +1,8 @@
 [phases.setup]
-nixPkgs = ["nodejs"]
+nixPkgs = ["nodejs_24"]
 
 [phases.build]
+# Kita paksa pakai npm install biasa, bukan npm ci
 cmds = ["npm install"]
 
 [start]

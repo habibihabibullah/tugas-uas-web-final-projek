@@ -1,9 +1,0 @@
-[phases.setup]
-nixPkgs = ["nodejs_24"]
-
-[phases.build]
-# Kita paksa pakai npm install biasa, bukan npm ci
-cmds = ["npm install"]
-
-[start]
-cmd = "node app.js"
